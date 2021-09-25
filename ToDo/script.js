@@ -55,4 +55,3 @@ function deleteList() {
 	let div = this.parentElement;
 	div.style.display = "none";
 }
-t

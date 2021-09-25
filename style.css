@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+
+#header {
+	margin: 20px 500px;
+	padding: 0 40px 20px 40px;
+	border: 1px solid green;
+	border-radius: 30px 15px;
+	background-color: yellowgreen;
+	color: maroon;
+	text-align: center;
+}
+
+#input {
+	width: 70%;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#button {
+	width: 20%;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	color: maroon;
+	cursor: pointer;
+}
+
+#myList {
+	margin: 10px 500px;
+	padding: 0;
+	border: 1px solid palegreen;	
+	border-radius: 10px 5px;
+	color: midnightblue;
+}
+
+ul li {
+	position: relative;
+	padding: 10px;
+	padding-left: 40px;
+	background-color: #EBFFCA;
+	font-size: 18px;
+	list-style-type: none;
+	cursor: pointer;
+}
+ul li:nth-child(odd) {
+	background-color: #DDFFA6;
+}
+ul li:hover {
+	background-color: #74A921;
+}
+ul li.checked {
+  background-color: #0DAC00;
+  color: maroon;
+  text-decoration: line-through;
+}
+
+.delete {
+	position: absolute;
+	padding: 10px 13px 10px 13px;
+	top: 0;
+	right: 0;
+}
+.delete:hover {
+	background-color: yellowgreen;
+	color: maroon;
+}

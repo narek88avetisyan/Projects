@@ -77,47 +77,47 @@ let potentialLevels = {
 	1: {
 		scorePerLine: 100,
 		speed: 1000,
-		nextLevelScore: 1000 // 1000 for test, real 7000
+		nextLevelScore: 7000
 	},
 	2: {
 		scorePerLine: 150,
 		speed: 900,
-		nextLevelScore: 2000 // for test, real 20000
+		nextLevelScore: 20000
 	},
 	3: {
 		scorePerLine: 200,
 		speed: 800,
-		nextLevelScore: 3000 // for test, real 40000
+		nextLevelScore: 40000
 	},
 	4: {
 		scorePerLine: 250,
 		speed: 700,
-		nextLevelScore: 4000 // for test, real 65000
+		nextLevelScore: 65000
 	},
 	5: {
 		scorePerLine: 300,
 		speed: 600,
-		nextLevelScore: 5000 // for test, real 100000
+		nextLevelScore: 100000
 	},
 	6: {
 		scorePerLine: 350,
 		speed: 500,
-		nextLevelScore: 10000 // for test, real 150000
+		nextLevelScore: 150000
 	},
 	7: {
 		scorePerLine: 400,
 		speed: 400,
-		nextLevelScore: 20000 // for test, real 215000
+		nextLevelScore: 215000
 	},
 	8: {
 		scorePerLine: 450,
 		speed: 300,
-		nextLevelScore: 40000 // for test, real 310000
+		nextLevelScore: 310000
 	},
 	9: {
 		scorePerLine: 500,
 		speed: 200,
-		nextLevelScore: 80000 // for test, real 450000
+		nextLevelScore: 450000
 	},
 	10: {
 		scorePerLine: 600,

@@ -1,0 +1,77 @@
+body {
+   font-weight: bold;
+}
+
+/* CSS for index.html */
+#main {
+   margin: 150px auto;
+   padding: 50px;
+   width: 400px;
+   border: 4px solid black;
+   font-size: 20px;
+}
+
+form div {
+   padding: 20px;
+}
+
+form input {
+   float: right;
+   padding: 5px;
+   border: 2px solid black;
+}
+
+#login {
+   float: right;
+   margin-top: 80px;
+   width: 120px;
+   padding: 5px;
+   font-size: 18px;
+}
+
+/* CSS for product_page.html */
+#userInfo {
+   text-align: right;
+   padding: 10px;
+}
+
+h2 {
+   color: green;
+   margin: 0px 30px 40px;
+}
+
+#logout {
+   width: 120px;
+   padding: 5px;
+   font-size: 18px;
+}
+
+#invoiceInfo {
+   font-family: cursive;
+   color: orangered;
+   text-align: center;
+   margin-right: 180px;
+}
+
+table {
+   border-collapse: collapse;
+   text-align: center;
+}
+
+table, th, td, tr {
+   border: 2px solid black;
+}
+
+th {
+   color: darkgreen;
+}
+
+#invoices {
+   margin: 10px auto;
+   width: 500px;
+}
+
+#invoiceLines {
+   margin: 50px auto;
+   width: 500px;
+}
